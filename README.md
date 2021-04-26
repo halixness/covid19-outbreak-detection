@@ -1,5 +1,5 @@
 # Understanding the Covid-19 Outbreak   
-This repository collects a series of experiments conducted between March and April 2020 at the University of Leeds. 
+This repository collects a series of experiments I conducted between March and April 2020 during my exchange at the University of Leeds. 
 
 <img src="deep-graph.png" width="400px"/>
 
