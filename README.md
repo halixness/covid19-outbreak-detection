@@ -10,12 +10,15 @@ My research focuses on the application of statistical and machine-learning algor
 ## The Tasks
 
 ### Search Algorithms 
+Application: optimal path with minimized security risk and congestion for transportation.
 - A* Algorithm for Improved Trasportation Security during Lockdown ([Doc](docs/search_algorithms_covid19.pdf))
 
 ### Time Series Forecasting
+Application: prediction of Covid-19 cases and future lockdowns.
 - Feed Forward-LSTM (Multivariate): Italy ([Notebook](italy_multivariate_rnn_covid19.ipynb)), World ([Notebook](world_multivariate_rnn_covid19.ipynb))
 
 ### Link prediction
+Application: geographical spread of the virus, hotspots prediction.
 - Regression with Light GBM ([Notebook](link_prediction_graph_regression.ipynb))
 - Logistic Regression([Notebook](link_prediction_graph_regression.ipynb))
 - Temporal Graph Convolutional Network ([Notebook](t-gcn_covid19_cases.ipynb))
