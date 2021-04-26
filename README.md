@@ -21,7 +21,8 @@ My research focuses on the application of statistical and machine-learning algor
 - Temporal Graph Convolutional Network ([Notebook](t-gcn_covid19_cases.ipynb))
 
 ## Conclusions
-Perhaps these early experiments left interesting insights particularly in the application of Temporal Graph Convolutional Neural Networks. Unfortunately, transportation data can be difficult to retrieve from public datasets, especially in spring 2020, when travel routes could suddendly change day by day. Nonetheless, this project leaves various unaswered questions about:
+Perhaps the main takeaway from this project is the necessity for further research on Temporal Graph Convolutional Neural Networks; Link prediction and Node features forecasting may allow us to predict the next local area at risk and a possible next wave of infections. LSTM networks and ARIMA weakly performed in times-series forecasting, probably due to an insufficient amount of records in the covid-19 cases dataset. Unfortunately, transportation data can be difficult to retrieve from public datasets, especially in spring 2020, when travel routes could suddendly change day by day. 
+Nonetheless, this project left unaswered questions about:
 
 - The correlation between climate and the spread of the Virus (especially in Italy), if any exists
 - Which mean of transportation mostly contributed to the spread of the virus
