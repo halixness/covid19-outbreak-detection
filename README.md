@@ -8,13 +8,16 @@ My research focuses on the application of statistical and machine-learning algor
 ## The Task
 This project can be synthesized into two main tasks:
 
+### Search Algorithms 
+- [A* Algorithm for Improved Trasportation Security during Lockdown](docs/search_algorithms_covid19.pdf)
+
 ### Time Series Forecasting
-- Feed Forward-LSTM (Multivariate)
+- Feed Forward-LSTM (Multivariate): [Italy](italy_multivariate_rnn_covid19.ipynb), [World](world_multivariate_rnn_covid19.ipynb)
 
 ### Link prediction
-- Regression with Light GBM
-- Logistic Regression 
-- [Temporal Graph Convolutional Network](https://github.com/lehaifeng/T-GCN)
+- [Regression with Light GBM](link_prediction_graph_regression.ipynb)
+- [Logistic Regression](link_prediction_graph_regression.ipynb)
+- [Temporal Graph Convolutional Network](t-gcn_covid19_cases.ipynb)
 
 ## Conclusions
 Perhaps these early experiments left interesting insights particularly in the application of Temporal Graph Convolutional Neural Networks. Unfortunately, transportation data can be difficult to retrieve from public datasets, especially in spring 2020, when travel routes could suddendly change day by day. Nonetheless, this project leaves various unaswered questions about:
